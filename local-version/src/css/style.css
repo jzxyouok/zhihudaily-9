@@ -1,8 +1,12 @@
+/* CSS reset start */
 html,
 body,
 div,
 ul,
 li,
+a,
+label,
+input,
 span,
 i,
 img,
@@ -16,6 +20,14 @@ h4 {
 li {
   list-style: none;
 }
+a,
+input {
+  -webkit-tap-hightlight-color: rgba(0, 0, 0, 0);
+}
+a,
+img {
+  -webkit-touch-callout: none;
+}
 img {
   border: none;
 }
@@ -28,6 +40,8 @@ h3,
 h4 {
   font-weight: normal;
 }
+/* CSS reset end */
+/* media query start */
 @media screen and (max-width: 320px) and (min-width: 213px) {
   html {
     font-size: 28.4px;
@@ -83,6 +97,12 @@ h4 {
     font-size: 100px;
   }
 }
+/* media query end */
+/* less variables start */
+/* less variables end */
+/* less mixin start */
+/* less mixin end */
+/* clear float start */
 .clearfix {
   zoom: 1;
 }
@@ -93,10 +113,13 @@ h4 {
   width: 0;
   height: 0;
 }
+/* clear float end */
 body {
   width: 100%;
   font-size: 0;
+  -webkot-overflow-scrolling: touch;
 }
+/* header style start */
 .header {
   position: fixed;
   top: 0;
@@ -155,6 +178,8 @@ body {
   height: 100%;
   color: #000;
 }
+/* header style end */
+/* carousel style start */
 .carousel {
   position: relative;
   height: 4.7rem;
@@ -206,6 +231,8 @@ body {
 .carousel li.active {
   background-color: #fff;
 }
+/* carousel style end */
+/* index content style start */
 .content {
   width: 100%;
   background-color: #f3f3f3;
@@ -252,6 +279,8 @@ body {
   width: 1.72rem;
   height: 1.5rem;
 }
+/* index content style end */
+/* sidebar style start */
 .sidebar {
   position: fixed;
   top: 0;
@@ -340,6 +369,7 @@ body {
 .sidebar .home span {
   margin-left: 0.32rem;
 }
+/* sidebar style end */
 .mask {
   position: fixed;
   top: 0;
@@ -374,7 +404,7 @@ html {
   height: 52px;
   margin-left: -138px;
   line-height: 52px;
-  border-radius: 5%;
+  border-radius: 10px;
   background-color: #fff;
   text-align: center;
   font-family: "微软雅黑", arial;
@@ -428,7 +458,7 @@ html {
   margin-left: -1.45rem;
   width: 2.9rem;
   height: 1rem;
-  background: url(../img/logofix.png) no-repeat;
+  background: url(/zhihudaily/local-version/src/img/logofix.png) no-repeat;
   background-size: 100%;
 }
 /* login style end */
@@ -558,6 +588,7 @@ html {
   text-align: center;
   font-size: 16px;
 }
+/* sharebox style */
 .share-box {
   width: 6.5rem;
   height: 7.6rem;
@@ -703,3 +734,4 @@ html {
   transform: rotate(45deg);
   opacity: 0;
 }
+/* setting style end */

@@ -1,11 +1,19 @@
 @charset: 'utf-8';
 
-html, body, div, ul, li, span, i, img, h1, h2, h3, h4{
+/* CSS reset start */
+
+html, body, div, ul, li, a, label, input, span, i, img, h1, h2, h3, h4{
   margin: 0;
   padding: 0;
 }
 li{
   list-style: none;
+}
+a, input{ // 去掉标签背景
+  -webkit-tap-hightlight-color: rgba(0, 0, 0, 0);
+}
+a, img{
+  -webkit-touch-callout: none; // 禁止长按出现菜单栏
 }
 img{
   border: none;
@@ -16,6 +24,10 @@ a{
 h1, h2, h3, h4{
   font-weight: normal;
 }
+
+/* CSS reset end */
+
+/* media query start */
 
 @media screen and (max-width: 320px) and (min-width: 213px) {
   html {
@@ -73,6 +85,10 @@ h1, h2, h3, h4{
   }
 }
 
+/* media query end */
+
+/* less variables start */
+
 @main: #00a2ed;
 @bg: #f3f3f3;
 @text: #fff;
@@ -81,7 +97,11 @@ h1, h2, h3, h4{
 
 @ff: Arial,"幼圆","黑体",sans-serif;
 
-// 用于字体自适应
+/* less variables end */
+
+/* less mixin start */
+
+// 用于字体适配 字体未做响应式处理
 .px2px(@name, @px){
   @{name}: round(@px/2)*1px;
 }
@@ -89,6 +109,10 @@ h1, h2, h3, h4{
 .px2rem(@name, @px){
   @{name}: (@px/100)*1rem;
 }
+
+/* less mixin end */
+
+/* clear float start */
 
 .clearfix{
   zoom: 1;
@@ -103,10 +127,16 @@ h1, h2, h3, h4{
   }
 }
 
+/* clear float end */
+
 body{
   width: 100%;
   font-size: 0;
+  // 流畅滚动
+  -webkot-overflow-scrolling: touch;
 }
+
+/* header style start */
 
 .header{
   position: fixed;
@@ -180,6 +210,10 @@ body{
   }
 }
 
+/* header style end */
+
+/* carousel style start */
+
 .carousel{
   position: relative;
   .px2rem(height, 470);
@@ -237,6 +271,10 @@ body{
   }
 }
 
+/* carousel style end */
+
+/* index content style start */
+
 .content{
   width: 100%;
   background-color: @bg;
@@ -291,6 +329,10 @@ body{
     }
   }
 }
+
+/* index content style end */
+
+/* sidebar style start */
 
 .sidebar{
   position: fixed;
@@ -395,8 +437,10 @@ body{
       .px2rem(margin-left, 32);
     }
   }
-
 }
+
+/* sidebar style end */
+
 // 遮罩层
 .mask{
   position: fixed;
@@ -433,8 +477,6 @@ html{
   .px2px(font-size, 36);
   overflow: hidden;
 
-
-
   a{
 
     &.login-btn{
@@ -442,15 +484,11 @@ html{
     left: 50%;
     z-index: 100;
     display: block;
-    // .px2rem(width, 550);
-    // .px2rem(height, 104);
-    // .px2rem(margin-left, -275);
-    // .px2rem(line-height, 104);
     .px2px(width, 550);
     .px2px(height, 104);
     .px2px(margin-left, -275);
     .px2px(line-height, 104);
-    border-radius: 5%;
+    border-radius: 10px;
     background-color: #fff;
     text-align: center;
     font-family: "微软雅黑", arial;
@@ -475,7 +513,6 @@ html{
     }
     }
   }
-
 
   p{
     position: absolute;
@@ -516,7 +553,7 @@ html{
     .px2rem(margin-left, -145);
     .px2rem(width, 290);
     .px2rem(height, 100);
-    background: url(../img/logofix.png) no-repeat;
+    background: url(/zhihudaily/local-version/src/img/logofix.png) no-repeat;
     background-size: 100%;
   }
 
@@ -553,14 +590,14 @@ html{
 
     .fa-star{
 
-      &.collected{
+      &.collected{ // 已经收藏
         color: #ff0;
       }
     }
 
     .fa-thumbs-up{
 
-      &.islike{
+      &.islike{ // 已经点赞
         color: #f00;
       }
     }
@@ -684,6 +721,8 @@ html{
     font-size: 16px;
   }
 }
+
+/* sharebox style */
 
 .share-box{
   .px2rem(width, 650);
@@ -863,3 +902,5 @@ html{
     }
   }
 }
+
+/* setting style end */
