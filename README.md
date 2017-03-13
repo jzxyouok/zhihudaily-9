@@ -1,6 +1,6 @@
 # zhihudaily(知乎日报)
 
-**[点击查看在线演示]*(https://ntnyq.github.io/zhihudaily/local-version/)**
+**[点击查看在线演示]*https://ntnyq.github.io/zhihudaily/local-version/)**
 
 仿照知乎日报的小项目，利用了知乎日报的API。
 分为2个版本:
