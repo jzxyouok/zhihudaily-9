@@ -1,0 +1,45 @@
+.header {
+  background-color: #222;
+}
+.header .set-list {
+  background-color: #222;
+  color: #fff;
+}
+.header .set-list a {
+  color: #fff;
+}
+.content {
+  background-color: #343434;
+}
+.content h2 {
+  background-color: #343434;
+}
+.content ul a {
+  background-color: #404040;
+  color: #f3f3f3;
+  box-shadow: none;
+}
+.content ul h3 {
+  color: #f3f3f3;
+}
+.sidebar {
+  background-color: #444;
+}
+.sidebar .user-info {
+  background-color: #222;
+}
+.sidebar .user-info span {
+  color: #999;
+}
+.sidebar .user-info i {
+  color: #fff;
+}
+.sidebar .channel li i {
+  color: #999;
+}
+.sidebar .channel a {
+  color: #999;
+}
+.sidebar .home {
+  background-color: #333;
+}
