@@ -3,7 +3,7 @@
     "stories": [
         {
             "images": [
-                "/static/img/pic1.jpg"
+                "/zhihudaily/vue-zhihudaily/static/img/pic1.jpg"
             ],
             "type": 0,
             "id": 9234397,
@@ -12,7 +12,7 @@
         },
         {
             "images": [
-                "/static/img/pic2.jpg"
+                "/zhihudaily/vue-zhihudaily/static/img/pic2.jpg"
             ],
             "type": 0,
             "id": 9270894,
@@ -21,7 +21,7 @@
         },
         {
             "images": [
-                "/static/img/pic3.jpg"
+                "/zhihudaily/vue-zhihudaily/static/img/pic3.jpg"
             ],
             "type": 0,
             "id": 9271506,
@@ -30,7 +30,7 @@
         },
         {
             "images": [
-                "/static/img/pic4.jpg"
+                "/zhihudaily/vue-zhihudaily/static/img/pic4.jpg"
             ],
             "type": 0,
             "id": 9271528,
@@ -39,7 +39,7 @@
         },
         {
             "images": [
-                "/static/img/pic5.jpg"
+                "/zhihudaily/vue-zhihudaily/static/img/pic5.jpg"
             ],
             "type": 0,
             "id": 9269719,
@@ -48,7 +48,7 @@
         },
         {
             "images": [
-                "/static/img/pic6.jpg"
+                "/zhihudaily/vue-zhihudaily/static/img/pic6.jpg"
             ],
             "type": 0,
             "id": 9269717,
@@ -57,7 +57,7 @@
         },
         {
             "images": [
-                "/static/img/pic7.jpg"
+                "/zhihudaily/vue-zhihudaily/static/img/pic7.jpg"
             ],
             "type": 0,
             "id": 9270613,
@@ -67,35 +67,35 @@
     ],
     "top_stories": [
         {
-            "image": "/static/img/top4.jpg",
+            "image": "/zhihudaily/vue-zhihudaily/static/img/top4.jpg",
             "type": 0,
             "id": 9269719,
             "ga_prefix": "030807",
             "title": "「你看，女性数量越少的学科，平均智商越高」"
         },
         {
-            "image": "/static/img/top5.jpg",
+            "image": "/zhihudaily/vue-zhihudaily/static/img/top5.jpg",
             "type": 0,
             "id": 9269717,
             "ga_prefix": "030807",
             "title": "「更早生育」对职场女性来说是不是好事？"
         },
         {
-            "image": "/static/img/top3.jpg",
+            "image": "/zhihudaily/vue-zhihudaily/static/img/top3.jpg",
             "type": 0,
             "id": 9270915,
             "ga_prefix": "030714",
             "title": "不要让几张截图成了狂欢，这本书在认真把性教育做得更好"
         },
         {
-            "image": "/static/img/top2.jpg",
+            "image": "/zhihudaily/vue-zhihudaily/static/img/top2.jpg",
             "type": 0,
             "id": 9270556,
             "ga_prefix": "030713",
             "title": "共享单车这么火，共享汽车会是下一个热点吗？"
         },
         {
-            "image": "/static/img/top1.jpg",
+            "image": "/zhihudaily/vue-zhihudaily/static/img/top1.jpg",
             "type": 0,
             "id": 9269183,
             "ga_prefix": "030708",
