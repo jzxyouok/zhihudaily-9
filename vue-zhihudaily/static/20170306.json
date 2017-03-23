@@ -3,7 +3,7 @@
     "stories": [
         {
             "images": [
-                "/zhihudaily/vue-zhihudaily/static/img/img1.jpg"
+                "static/img/img1.jpg"
             ],
             "type": 0,
             "id": 9259222,
@@ -12,7 +12,7 @@
         },
         {
             "images": [
-                "/zhihudaily/vue-zhihudaily/static/img/img2.jpg"
+                "static/img/img2.jpg"
             ],
             "type": 0,
             "id": 9267167,
@@ -21,7 +21,7 @@
         },
         {
             "images": [
-                "/zhihudaily/vue-zhihudaily/static/img/img3.jpg"
+                "static/img/img3.jpg"
             ],
             "type": 0,
             "id": 9269287,
@@ -30,7 +30,7 @@
         },
         {
             "images": [
-                "/zhihudaily/vue-zhihudaily/static/img/img4.jpg"
+                "static/img/img4.jpg"
             ],
             "type": 0,
             "id": 9268877,
@@ -39,7 +39,7 @@
         },
         {
             "images": [
-                "/zhihudaily/vue-zhihudaily/static/img/img5.jpg"
+                "static/img/img5.jpg"
             ],
             "type": 0,
             "id": 9268901,
@@ -48,7 +48,7 @@
         },
         {
             "images": [
-                "/zhihudaily/vue-zhihudaily/static/img/img6.jpg"
+                "static/img/img6.jpg"
             ],
             "type": 0,
             "id": 9268717,
@@ -57,7 +57,7 @@
         },
         {
             "images": [
-                "/zhihudaily/vue-zhihudaily/static/img/img7.jpg"
+                "static/img/img7.jpg"
             ],
             "type": 0,
             "id": 9268431,
@@ -66,7 +66,7 @@
         },
         {
             "images": [
-                "/zhihudaily/vue-zhihudaily/static/img/img8.jpg"
+                "static/img/img8.jpg"
             ],
             "type": 0,
             "id": 9268162,
@@ -75,7 +75,7 @@
         },
         {
             "images": [
-                "/zhihudaily/vue-zhihudaily/static/img/img9.jpg"
+                "static/img/img9.jpg"
             ],
             "type": 0,
             "id": 9268386,
@@ -84,7 +84,7 @@
         },
         {
             "images": [
-                "/zhihudaily/vue-zhihudaily/static/img/img10.jpg"
+                "static/img/img10.jpg"
             ],
             "type": 0,
             "id": 9268089,
@@ -93,7 +93,7 @@
         },
         {
             "images": [
-                "/zhihudaily/vue-zhihudaily/static/img/img11.jpg"
+                "static/img/img11.jpg"
             ],
             "type": 0,
             "id": 9267912,
@@ -102,7 +102,7 @@
         },
         {
             "images": [
-                "/zhihudaily/vue-zhihudaily/static/img/img12.jpg"
+                "static/img/img12.jpg"
             ],
             "type": 0,
             "id": 9265549,
@@ -111,7 +111,7 @@
         },
         {
             "images": [
-                "/zhihudaily/vue-zhihudaily/static/img/img13.jpg"
+                "static/img/img13.jpg"
             ],
             "type": 0,
             "id": 9267230,
@@ -120,7 +120,7 @@
         },
         {
             "images": [
-                "/zhihudaily/vue-zhihudaily/static/img/img14.jpg"
+                "static/img/img14.jpg"
             ],
             "type": 0,
             "id": 9266956,
@@ -129,7 +129,7 @@
         },
         {
             "images": [
-                "/zhihudaily/vue-zhihudaily/static/img/img15.jpg"
+                "static/img/img15.jpg"
             ],
             "type": 0,
             "id": 9266554,
@@ -138,7 +138,7 @@
         },
         {
             "images": [
-                "/zhihudaily/vue-zhihudaily/static/img/img16.jpg"
+                "static/img/img16.jpg"
             ],
             "type": 0,
             "id": 9267106,
@@ -147,7 +147,7 @@
         },
         {
             "images": [
-                "/zhihudaily/vue-zhihudaily/static/img/img17.jpg"
+                "static/img/img17.jpg"
             ],
             "type": 0,
             "id": 9261447,
@@ -156,7 +156,7 @@
         },
         {
             "images": [
-                "/zhihudaily/vue-zhihudaily/static/img/img18.jpg"
+                "static/img/img18.jpg"
             ],
             "type": 0,
             "id": 9266850,
@@ -165,7 +165,7 @@
         },
         {
             "images": [
-                "/zhihudaily/vue-zhihudaily/static/img/img19.jpg"
+                "static/img/img19.jpg"
             ],
             "type": 0,
             "id": 9266767,
